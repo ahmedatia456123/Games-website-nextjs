@@ -1,4 +1,4 @@
-# Screenshotes
+# ScreenShots
 
 <img src='https://raw.githubusercontent.com/ahmedatia456123/Games-website-nextjs/main/1650966167374.png'>
 <img src='https://raw.githubusercontent.com/ahmedatia456123/Games-website-nextjs/main/1650966106892.png'>
