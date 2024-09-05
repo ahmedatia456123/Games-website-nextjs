@@ -1,0 +1,198 @@
+.container{
+    width: calc(100%);
+    display: flex;
+    flex-direction: column;
+    padding: var(--big-margin);
+    box-sizing: border-box;
+}
+.numbers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: var(--small-gap);
+    flex-shrink: 1;
+}
+.number{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: var(--main-border-raduis);
+    background-color: var(--main-color);
+    height: 5rem;
+    box-sizing: content-box;
+    overflow: hidden;
+    
+}
+.number div,.number span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number div{
+    height: 70%;
+    font-size: 1.5rem;
+    background-color: var(--main-color-light);
+}
+.number span{
+    height: 30%;
+}
+.number span svg{
+    padding: 0 var(--small-gap);
+    font-size: 1rem;
+}
+.mostViewed,.lastComments{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: calc(3*var(--big-margin));
+    background-color: var(--main-color-light);
+    border-radius: var(--main-border-raduis);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.mostViewed h3,.lastComments h3{
+    width: 100%;
+    text-align: right;
+    background-color: var(--main-color);
+    padding: var(--mid-margin);
+    box-sizing: border-box;
+}
+.mostViewed div{
+    width: 100%;
+    padding: var(--mid-margin);
+    box-sizing: border-box;
+}
+.mostViewed ul,.lastComments ul{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.mostViewed li:hover,.lastComments li:hover {
+    background-color: var(--main-color--2);
+}
+.menu {
+    flex-direction: row;
+    gap:1px;
+    border-radius: var(--main-border-raduis);
+    overflow: hidden;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.menu li{
+    flex-basis: 40%;
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-around;
+    background-color: var(--main-color);
+    padding: var(--mid-margin);
+}
+.postsList{
+    flex-direction: column;
+    width: 100%;
+}
+.thmbnail{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: var(--main-border-raduis);
+    overflow: hidden;
+}
+
+.postsList li,.lastComments li {
+    background-color: var(--main-color);
+    margin-top: var(--mid-margin);
+    border-radius: var(--main-border-raduis);
+    width: 100%;
+}
+.postsList h3{
+    padding: 0;
+    width: unset;
+    background-color: unset;
+}
+.postsList a{
+    padding: 0.5rem;
+}
+
+.postsList li{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: var(--mid-margin);
+}
+.postsList li span{
+    display: flex;
+ 
+    gap:var(--small-gap);
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+}
+.postsList li a span span{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.lastComments li{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: var(--mid-margin);
+    gap: var(--small-gap);
+    align-items: center;
+}
+
+.lastComments div {
+    padding: var(--mid-margin);
+    box-sizing: border-box;
+}
+.commentBody{
+    justify-content: space-between;
+    width: 100%;
+}
+.rightside,.userinfo a,.leftSide,.commentBody,.postsStates{
+    display: flex;
+    flex-direction: row;
+    gap: var(--mid-gap);
+    align-items: center;
+}
+.postsStates{
+    z-index: 9;
+    border-radius: var(--main-border-raduis);
+}
+.leftSide{
+    flex-shrink: 0;
+}
+.userinfo{
+    background: #c9baba2e;
+    padding: 0.5rem;
+    flex-shrink: 0;
+    border-radius: var(--main-border-raduis);
+}
+.leftSide span{
+    display: flex;
+    flex-direction: row;
+    gap: var(--mid-gap);
+    align-items: center;
+}
+.comment{
+    color: rgb(170, 170, 170)
+}
+.delete{
+    flex-basis: 45px;
+}
+.delete:hover,.userinfo:hover,.postsStates:hover{
+    background-color: rgba(255, 255, 255, 0.24) !important;
+}
+.delete svg{
+    color: aliceblue;
+}

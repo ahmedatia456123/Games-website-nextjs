@@ -1,0 +1,102 @@
+html{
+  --main-color: #3C1E6E;
+  --main-color--2: rgb(42, 18, 83);
+  --main-color-light: rgb(71, 29, 143);
+  --main-font-color: #decaff;
+  --white: #decaff;
+  --neon-color:#bc13fe;
+  --main-border-raduis: 0.5rem;
+  --mid-gap:7px;
+  --small-gap:5px;
+  --small-margin:5px;
+  --mid-margin:10px;
+  --big-margin:15px;
+  --card-width: 160px;
+  --small-delay:400ms;
+  --small-duration:300ms;
+  --shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+  direction: rtl;
+}
+body{
+  font-family: 'Noto Kufi Arabic','cursive', sans-serif;
+  font-size: 14px;
+  color: var(--main-font-color);
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #0c0021;
+  margin: 0px;
+  padding: 0px;
+}
+
+.spaceing{
+  width: 8px;
+}
+a{
+  text-decoration: none;
+  color: var(--main-font-color);
+  margin: 0px;
+  padding: 0px;
+}
+button{
+  background-color: transparent;
+  border: 0px;
+  font-family: 'Noto Kufi Arabic','cursive', sans-serif;
+  cursor: pointer;
+}
+svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: white;
+}
+.searchicon{
+  color: var(--main-color--2);
+}
+.siteMain{
+  margin-top: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  width: inherit;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+h3{
+  padding: 0px;
+  margin: 0px;
+}
+.menuElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: var(--mid-gap);
+}
+.siteContainer{
+  margin: 1rem;
+  width: 100%;
+}
+.menuElement div:nth-child(2){
+  width: 0px;
+  overflow: hidden;
+  display: none;
+  transition-duration: 500ms;
+}
+header:hover{
+  position: fixed;
+}
+
+header:hover div:nth-child(2){
+  width: max-content;
+  display: flex;
+  transition-duration: 500ms;
+}
+.MuiInputLabel-formControl{
+    right: 0;
+}
+.MuiAutocomplete-tag{
+  color: var(--white);
+background-color: var(--main-color-light);
+margin: var(--mid-gap) !important;
+}

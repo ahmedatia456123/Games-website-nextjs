@@ -1,0 +1,8 @@
+.btn{
+    background-color: var(--main-color--2);
+    border-radius: var(--main-border-raduis);
+    width: fit-content;
+    margin: var(--mid-margin);
+    padding: var(--mid-margin);
+    cursor: pointer;
+}

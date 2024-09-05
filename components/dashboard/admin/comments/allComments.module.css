@@ -1,0 +1,21 @@
+.container{
+    box-sizing: border-box;
+    width: 100%;
+
+}
+/* Nav */
+.pagination {
+    margin-top: var(--big-margin);
+}
+
+.container nav ul {
+    width: 100%;
+    justify-content: center;
+    direction: ltr;
+}
+
+.container nav button,
+.container nav div {
+    color: var(--white) !important;
+    border-radius: 50%;
+}

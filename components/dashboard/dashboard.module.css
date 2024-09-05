@@ -1,0 +1,39 @@
+.dashboardContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.mainPart{
+    position: relative;
+    width: calc(80% - var(--big-margin)) ;
+    height: 200px;
+    right: 20%;
+    margin-right: var(--big-margin);
+    
+}
+.sideBar{
+    width: 20%;
+    background-color: var(--main-color);
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+.sideBar ul{
+    list-style: none;
+}
+.sideBar li{
+    padding: var(--mid-gap);
+    margin: var(--small-gap);
+    cursor: pointer;
+    border-radius: var(--main-border-raduis);
+}
+.sideBar li:hover{
+    background-color: var(--main-color-light);
+}
+.sideBar li div{
+    display: flex;
+    flex-direction: row;
+    gap: var(--small-gap);
+}

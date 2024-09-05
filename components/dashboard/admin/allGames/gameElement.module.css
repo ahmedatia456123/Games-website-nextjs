@@ -1,0 +1,66 @@
+.gameElement,.gameElement div,.gameElement a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    gap: var(--small-gap);
+    border-radius: var(--main-border-raduis);
+}
+
+.gameElement{
+    border-radius: var(--main-border-raduis);
+    background-color: var(--main-color);
+    margin-top:calc(3*var(--mid-gap));
+    padding: var(--mid-gap);
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+}
+.gameElement:hover{
+    background-color: var(--main-color--2);
+}
+.gameElement a{
+    padding: var(--small-margin);
+    background-color: var(--main-color-light);
+    justify-content: center;
+}
+.gameElement span{
+    display: flex;
+    flex-direction: column;
+    gap: var(--small-gap);
+}
+.gameElement div{
+    padding: 0px;
+    margin: 0px;
+}
+.gameElement img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: var(--main-border-raduis);
+}
+.delete {
+    flex-basis: 45px;
+}
+.delete button{
+    padding: 12px;
+}
+.delete:hover,
+.userinfo:hover,
+.postsStates:hover,
+.gameElement a:hover {
+    background-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+.delete svg {
+    color: aliceblue;
+}
+.navMenu svg,
+.search svg,
+.hiddenHeader svg {
+    transition-duration: 300ms;
+    fill: var(--main-font-color);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+

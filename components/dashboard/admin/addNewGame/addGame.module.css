@@ -1,0 +1,28 @@
+.container{
+    padding: var(--big-margin);
+    border-radius: var(--main-border-raduis);
+}
+.container input,.container textarea{
+    direction: rtl;
+}
+.inputField{
+    margin-top: calc(var(--mid-margin)*3);
+    background-color: var(--main-color--2);
+    
+    direction: ltr;
+}
+.inputField label,.inputField input,.inputField textarea,.addGame{
+    color: #decaff !important;
+    font-family: 'Noto Kufi Arabic',
+    'cursive',
+    sans-serif;
+}
+
+.addGame{
+    background-color: var(--main-color);
+    margin-top: calc(var(--mid-margin)*3);
+    margin-left: calc(var(--mid-margin)*3);
+}
+.addGame:hover {
+    background-color: var(--main-color-light);
+}

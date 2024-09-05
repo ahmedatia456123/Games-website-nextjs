@@ -1,0 +1,49 @@
+.CommentElement{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin: var(--mid-gap);
+    background-color: var(--main-color);
+    box-sizing: border-box;
+    border-radius: var(--main-border-raduis);
+    padding: var(--mid-gap);
+    flex-direction: row;
+}
+.right div{
+    justify-content: center !important;
+}
+.CommentElement div{
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--mid-gap);
+    align-items: center;
+    flex-direction: row;
+}
+.CommentElement span{
+    display: flex;
+    flex-direction: column;
+}
+.CommentElement a{
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: var(--small-margin);
+    border-radius: var(--main-border-raduis);
+    cursor: pointer;
+}
+
+.CommentElement a:hover {
+    background-color: rgba(255, 255, 255, 0.418) !important;
+}
+.delete {
+    flex-basis: 45px;
+}
+
+.delete:hover,
+.userinfo:hover,
+.postsStates:hover {
+    background-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+.delete svg {
+    color: aliceblue;
+}
+

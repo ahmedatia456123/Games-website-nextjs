@@ -1,0 +1,16 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 8px;
+    font-size: 2rem;
+    font-family: fantasy;
+    width: 100%;
+    direction: ltr;
+}
+.headerBar:hover .logoContainer, .headerBar:hover .logo{
+    width: 100%;
+}
+.spaceing{
+    width: 8px;
+}

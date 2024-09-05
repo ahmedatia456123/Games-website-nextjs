@@ -1,0 +1,11 @@
+.tagPage ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:var(--small-gap)
+}
+.tagPage li{
+    flex-basis: 170px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}

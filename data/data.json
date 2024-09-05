@@ -1,0 +1,58 @@
+[
+    {
+    "ImgUrl": "https://images.crazygames.com/shellshockersio/20211202050253/shellshockersio-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=364&h=208&fit=crop",
+    "title": "Shell Shockers",
+    "videoUrl": "https://videos.crazygames.com/shellshockersio/2/shellshockersio-540x333.mp4",
+    "type": "recommeded normal",
+    "url": "https://shellshock.io/"
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/time-shooter-2/20220314160843/time-shooter-2-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=178&h=100&fit=crop",
+    "title": "Time Shooters",
+    "videoUrl": "https://videos.crazygames.com/time-shooter-2/1/time-shooter-2-540x333.mp4",
+    "type": "recommeded normal",
+    "url": "https://html5.gamedistribution.com/62a72f2da7cb4b609579a47653546e6a/"
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/smash-karts/20201119155032/smash-karts-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=364&h=208&fit=crop",
+    "title": "Smash Karts",
+    "videoUrl": "https://videos.crazygames.com/smash-karts/10/smash-karts-540x333.mp4",
+    "type": "recommeded normal",
+    "url": "https://smashkarts.io/"
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/games/highway-racer/cover-1647682609214.png?auto=format,compress&q=75&cs=strip&ch=DPR&w=364&h=208&fit=crop",
+    "title": "Highway Racer",
+    "videoUrl": "https://videos.crazygames.com/highway-racer/1/highway-racer-540x333.mp4",
+    "type": "recommeded normal",
+    "url": "https://html5.gamedistribution.com/5ddaf1438a62469ea07bb5f3531c275e/"
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/hide-n-seek/20220216140400/hide-n-seek-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=178&h=100&fit=crop",
+    "title": "Hide N Seek",
+    "videoUrl": "https://videos.crazygames.com/hide-n-seek/5/hide-n-seek-540x333.mp4",
+    "type": "recommeded normal",
+    "url": "https://html5.gamedistribution.com/7eda2be289604aa89f3b97df59661bfe/"
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/buildnow-gg/20210823164305/buildnow-gg-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=178&h=100&fit=crop",
+    "title": "Build Now GG",
+    "videoUrl": "https://videos.crazygames.com/buildnow-gg/2/buildnow-gg-thumbnail.mp4",
+    "type": "recommeded normal",
+    "url": ""
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/games/madalin-stunt-cars-2/cover-1614695327596.png?auto=format,compress&q=75&cs=strip&ch=DPR&w=178&h=100&fit=crop",
+    "title": "Madlin Stunt Cars 2",
+    "videoUrl": "https://videos.crazygames.com/madalin-stunt-cars-2/5/madalin-stunt-cars-2-540x333.mp4",
+    "type": "recommeded normal",
+    "url":"https://www.madalingames.com/madalingames/wp-content/uploads/games/webgl/M/MSC2-files/014/MSC2-WEBGL/index.html"
+    },
+    {
+    "ImgUrl": "https://images.crazygames.com/games/crazy-roll-3d/cover-1646943079697.png?auto=format,compress&q=75&cs=strip&ch=DPR&w=178&h=100&fit=crop",
+    "title": "Crazy Roll 3D",
+    "videoUrl": "https://videos.crazygames.com/crazy-roll-3d/3/crazy-roll-3d-thumbnail.mp4",
+    "type": "recommeded",
+    "url": "https://html5.gamedistribution.com/3d9f85cd88574db8a04b5564ee8e3a4e/"
+    }
+]

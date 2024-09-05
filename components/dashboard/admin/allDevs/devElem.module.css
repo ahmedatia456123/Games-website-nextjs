@@ -1,0 +1,53 @@
+.catElem,
+.catElem div,
+.catElem a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--small-gap);
+    border-radius: var(--main-border-raduis);
+}
+
+.catElem {
+    margin: var(--big-margin);
+    background-color: var(--main-color);
+    padding: var(--big-margin);
+}
+
+.catElem span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catElem a {
+    padding: var(--small-margin);
+    background-color: var(--main-color-light);
+    justify-content: center;
+}
+
+.delete:hover,
+.catElem a:hover {
+    background-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+.delete svg {
+    color: aliceblue;
+}
+
+.catElem img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: var(--main-border-raduis);
+}
+
+.delete {
+    flex-basis: 45px;
+}
+
+.delete button {
+    padding: 12px;
+}
