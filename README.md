@@ -1,3 +1,10 @@
+# Screenshotes
+
+<img src='https://raw.githubusercontent.com/ahmedatia456123/Games-website-nextjs/main/1650966167374.png'>
+<img src='https://raw.githubusercontent.com/ahmedatia456123/Games-website-nextjs/main/1650966106892.png'>
+<img src='https://github.com/ahmedatia456123/Games-website-nextjs/blob/main/1650966687507.png?raw=true'>
+<img src='https://raw.githubusercontent.com/ahmedatia456123/Games-website-nextjs/main/1650966838313.png'>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
